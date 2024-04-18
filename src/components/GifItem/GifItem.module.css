@@ -1,0 +1,59 @@
+.image {
+    margin: 10px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    height: 200;
+}
+
+.container {
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    align-items: center;
+    border: 10px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.container:active {
+    width: 3000px;
+}
+
+.title{
+    color:transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.container:active .title{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.background{
+    filter: blur(50px);
+    background-size: cover;
+    height: 250px;
+}
+
+.data_container{
+    z-index: 1;
+    position: absolute;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,2 @@
+reactDom => DOM virtual
+tambien existe el dom real.
